@@ -1,3 +1,5 @@
 rootProject.name = 'OneRepo'
 
 include 'front'
+include 'rest_front'
+
