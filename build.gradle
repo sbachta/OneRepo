@@ -3,10 +3,12 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.10.RELEASE")
+        classpath(
+                'org.springframework.boot:spring-boot-gradle-plugin:1.5.10.RELEASE',
+                'org.junit.platform:junit-platform-gradle-plugin:1.0.2',
+        )
     }
 }
-
 
 subprojects {
     repositories {
