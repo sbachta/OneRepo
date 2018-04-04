@@ -1,14 +1,14 @@
-.gradle*
-.gradle/
-/*.class
-/.idea
-build/
-out/
-*.log
-!gradle/wrapper/gradle-wrapper.jar
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.idea/*
+!.idea/inspectionProfiles/*
+!.idea/runConfigurations/*
+!.idea/codeStyleSettings.xml
 *.iml
 *.ipr
+
+**/credentials.yml
+**/build/
+**/out/
+**/.gradle/
+**/*secret*
+
+**/node_modules/*
